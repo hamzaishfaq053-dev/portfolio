@@ -1,0 +1,106 @@
+body
+{
+    background-color: rgb(232, 247, 247);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h
+{
+    color: rgb(236, 54, 169);
+    margin: center;
+}
+h1
+{
+
+    color: rgb(255, 0, 174);
+}
+p
+{
+    color: rgb(22, 22, 239);
+    font-size: 20px;
+}
+h3
+{
+    color: rgb(255, 0, 140);
+}
+p
+{
+    color: rgb(21, 21, 143);
+}
+.Skills
+{
+    background-color: rgb(59, 16, 202);
+    padding: 15px
+}
+.Skills h3
+{
+  color: rgb(220, 17, 152);
+  text-decoration: rgb(74, 12, 219);  
+}
+li
+{
+    color: rgb(83, 23, 213);
+    font-size: 10px;
+    margin: 5px;
+}
+section
+{
+    background-color: rgb(236, 235, 244);
+    border-color: rgb(237, 224, 224);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.profile
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px;
+}
+nav a 
+{
+    color: rgb(66, 128, 183);
+    margin: 0 10px;
+    text-decoration: none;
+}
+nav a:hover
+{
+    text-decoration: underline;
+}
+img
+{
+    max-width: 100%;
+    border-radius: 10px;
+}
+header
+{
+    background-image: url("images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+}
+:root
+{
+   -- main:#4b2a8a;
+   -- ligth:#f7f5fc;
+   -- accent:#ffb703;
+}
+header
+{
+    background-color: var(--main);
+}
+h2{
+    color: var(--main);
+}
+.my-pic{
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
